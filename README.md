@@ -31,3 +31,4 @@ In our implementation of Word2Vec, we used skip-gram model. The training objecti
 - After mapping each word to a unique fixed-size vector, the next step is to set up a classifier to find out the labbeled pet owners. In this case, I only implemented and trained the logistic regression model with 5-fold cross-validation. However, from the code, I sealed a function as 'Classifier' to load the model, other algorithm or classifiers can be directly added within the function.
 
 - The visualization result of the logistic regression model:
+![](https://github.com/Jieyi-Deng/Video-Comments-Analysis/blob/master/training.png?raw=true)
