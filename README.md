@@ -32,3 +32,18 @@ In our implementation of Word2Vec, we used skip-gram model. The training objecti
 
 - The visualization result of the logistic regression model:
 ![](https://github.com/Jieyi-Deng/Video-Comments-Analysis/blob/master/training.png?raw=true)
+
+
+### 3. Insight of the Users:
+- At the same time, I explored the significant topics to the users by [Latent Dirichlet Allocation (LDA)](http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf). In natural language processing, Latent Dirichlet Allocation (LDA) is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar. In this case, I tried to conclude 5 topics using LDA to Cluster the TF-IDF Matrix :
+
+| Topics | Key Words |
+| ------------- | ------------- |
+| Topic 1 | ['feel', 'people', u'hate', 'school', 'time', 'life', 'day', 'last', 'also'] |
+| Topic 2 | ['know', 'looks', 'please', 'back', 'see', 'want', 'died', 'help', 'video'] |
+| Topic 3 | ['back', 'know', 'house', 'video', 'looks', 'time', 'old', 'lol', 'years'] |
+| Topic 4 | ['pit', 'know', 'training', 'want', 'food', 'even', 'good', 'old', 'looks'] |
+| Topic 5 | ['food', 'time', 'know', 'people', 'make', 'want', 'think', 'even', 'looks'] |
+
+  From the topic clustering result we can know that the important topics include: a. food; school/training; life or age[died] b. the emotional expression mainly focuses on funny and interesting (e.g. lol).
+
